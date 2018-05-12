@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+.header
+{
+    position: absolute;
+    height:  15%;
+    width: 100%;
+    background: rgb(71, 67, 67);
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.left-logo-area
+{
+    position: relative;
+    height:100%;
+    width:15.7%;
+    top:0;
+    background: black;
+    float: left;
+}
+
+.main-logo
+{
+    position: relative;
+    height: 100%;
+    width: 17.7%;
+    background: teal;
+    top: 0;
+    float: left;
+}
+
+.right-logo-area
+{
+    position: relative;
+    height: 100%;
+    width: 32.5%;
+    float: left;
+    background: orange;
+}
+
+.about-link
+{
+    position: relative;
+    height: 100%;
+    width:5.45%;
+    float: left;
+    background: teal;
+}
+
+.portfolio
+{
+    position: relative;
+    height: 100%;
+    width: 7.43%;
+    float: left;
+    background: orange;
+}
+
+.contact
+{
+    position: relative;
+    height: 100%;
+    width: 6.64%;
+    float: left;
+    background: teal;
+}
+
+.contact-right
+{
+    position: relative;
+    height: 100%;
+    width: 14.58%;
+    float: left;
+    background: orange;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
