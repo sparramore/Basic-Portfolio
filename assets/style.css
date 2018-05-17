@@ -16,7 +16,7 @@
     border-bottom-style: solid;
 }
 
-.left-logo-area
+#left-logo-area
 {
     position: relative;
     height:100%;
@@ -58,7 +58,7 @@
 #header-link-area
 {
     top: 0;
-    width: 65.81%;
+    width: 34.19%;
     float: left;
     background: #3333;
 }
@@ -66,17 +66,17 @@
 #header-link-top
 {
     position: relative;
-    background: #3333;
+    top: 0;
+    left: 0;
+    width: 100%;
     height:27.27%;
-    width: 34.19%;
-    float: left;
 }
 
 #about-link
 {
     position: relative;
     height: 45.45%;
-    width:5.45%;
+    width:33%;
     float: left;
     background: #ffffff;
     border-color: #cccccc;
@@ -93,7 +93,7 @@
 {
     position: relative;
     height: 45.45%;
-    width: 7.43%;
+    width: 33%;
     float: left;
     background: #ffffff;
     border-color: #cccccc;
@@ -110,11 +110,9 @@
 {
     position: relative;
     height: 45.45%;
-    width: 6.64%;
+    width: 33%;
     float: left;
     background: #ffffff;
-    border-color: #cccccc;
-    border-right-style: solid;
 }
 
 #contact-text
@@ -186,7 +184,7 @@ height 497
     top: 0;
     left: 0;
     width: 100%;
-    height: 80.68%;
+    height: 79.68%;
 }
 
 #main-body-top-border
@@ -230,6 +228,203 @@ height 497
     top: 0;
     left: 0; 
 }
+
+/* Portfolio Section */
+
+#main-portfolio-body
+{
+    position: absolute;
+    top: 16%;
+    bottom: 77.6%;
+    left: 15.61%;
+    right:84.38%;
+    width: 50%;
+    height: 61.7%;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+/* 
+height: 262 
+width: 300
+*/
+#main-portfolio-body-body
+{
+    position: absolute;
+    top: 20.32%;
+    left: 0;
+    width: 100%;
+    height: 79.68%;
+}
+/*
+height: 67
+width: 80 
+ */
+#main-portfolio-body-body-picture1
+{
+    position: absolute;
+    width: 28.33%;
+    height: 25.57%;
+    top: 06.48%;
+    left: 3%;
+    border: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#main-portfolio-body-body-picture2
+{
+    position: absolute;
+    width: 28.33%;
+    height: 25.57%;
+    top: 06.48%;
+    left: 35%;
+    border: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#main-portfolio-body-body-picture3
+{
+    position: absolute;
+    width: 28.33%;
+    height: 25.57%;
+    left: 3%;
+    top: 37.40%;
+    border: 0px;
+    float: left;
+}
+
+#main-portfolio-body-body-picture4
+{
+    position: absolute;
+    width: 28.33%;
+    height: 25.57%;
+    top: 37.40%;
+    left: 35%;
+    border: 0px;
+    float: left;
+}
+
+#main-portfolio-body-body-picture5
+{
+    position: absolute;
+    width: 28.33%;
+    height: 25.57%;
+    top: 66.79%;
+    left: 3%;
+    border: 0px;
+    float: left;
+}
+
+.portfolio-picture
+{
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    border: 0px;
+}
+
+/* 
+    width: 82
+    height: 19
+    top: 45
+    bottom: 60
+*/
+.portfolio-picture-text
+{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 28.35%;
+    top: 67.16%;
+    bottom: 89.55%;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* Contact Portion */
+/* 
+width: 608
+height: 383
+*/
+#contact-body
+{
+    position: absolute;
+    top: 16%;
+    bottom: 77.6%;
+    left: 15.61%;
+    right:84.38%;
+    width: 50%;
+    height: 61.7%;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#contact-body-main-text-name
+{
+    position: absolute;
+    top: 21.67%;
+    left: 03.13%;
+}
+
+#contact-body-main-textbox-name
+{
+    position: absolute;
+    left: 03.13%;
+    top: 26.10%;
+    width: 93.58%;
+    height: 04.96%;
+}
+
+#contact-body-main-text-email
+{
+    position: absolute;
+    left: 03.13%;
+    top:34.72%;
+}
+
+#contact-body-main-textbox-email
+{
+    position: absolute;
+    left:03.13%;
+    top: 39.16%;
+    width: 93.58%;
+    height: 04.96%;
+
+}
+
+#contact-body-main-text-message
+{
+    position: absolute;
+    left: 03.13%;
+    top: 48.30%;
+}
+
+#contact-body-main-textbox-message
+{
+    position: absolute;
+    left: 03.13%;
+    top: 52.74%;
+    width: 93.58%;
+    height: 32.37%;  
+}
+
+#contact-body-submit
+{
+    position: absolute;
+    left: 03.13%;
+    top: 88.51%;
+    width: 12.00%;
+    height: 06.00%;
+    background-color: #4aaaa5;
+}
+
+
 
 .clearfix::after {
     content: "";
