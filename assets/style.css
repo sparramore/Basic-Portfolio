@@ -3,7 +3,7 @@
     text-align: center;
   }
 
-.header
+#header
 {
     position: absolute;
     height:  11.23%;
@@ -147,6 +147,17 @@ height 497
     border-color: #dddddd;
 }
 
+#main-body-background
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image:url(../images/4cmdw.jpg);
+    z-index: -1;
+}
+
 #main-body-header
 {
     position: relative;
@@ -212,7 +223,7 @@ height 497
     top: 0;
     left: 0;
     width: 20.89%;
-    height: 30.18%;
+    height: 50.18%;
     float: left;
 }
 
